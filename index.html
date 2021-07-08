@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo-icon.png">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+    <title>重庆旅游集团新媒体矩阵</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/logo.png" class="header-img" alt="">
+            <div>重庆旅游集团新媒体矩阵</div>
+            <div class="tab-box">
+                <div class="tab tab-item-active" id="nav1" onMouseOver="javascript:handleTabSwitchClick(this)">
+                    <img src="./images/tab-wechat.png" class="tab-item-img" alt="">
+                </div>
+                <div class="tab tab-item tab-item-center" id="nav2" onMouseOver="javascript:handleTabSwitchClick(this)">
+                    <img src="./images/tab-weibo.png" class="tab-item-img" alt="">
+                </div>
+                <div class="tab tab-item" id="nav3" onMouseOver="javascript:handleTabSwitchClick(this)">
+                    <img src="./images/tab-tikTok.png" class="tab-item-img" alt="">
+                </div>
+            </div>
+        </header>
+        <div id="sub1">
+            <div class="content">
+                <div class="item-card">
+                    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA4MjIyNzYwOA==&scene=124#wechat_redirect"
+                        target="_blank">
+                        <img src="./images/wechat/logo_lhld.png" class="item-card-img" alt="">
+                        <div>乐和乐都</div>
+                        <img src="./images/icon-wechat.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA4NDA5OTIyMw==&scene=124#wechat_redirect"
+                        target="_blank">
+                        <img src="./images/wechat/logo_jfs.png" class="item-card-img" alt="">
+                        <div>金佛山</div>
+                        <img src="./images/icon-wechat.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA4ODA3MzAzMA==&scene=124#wechat_redirect"
+                        target="_blank">
+                        <img src="./images/wechat/logo_slx.png" class="item-card-img" alt="">
+                        <div>神龙峡</div>
+                        <img src="./images/icon-wechat.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MjM5MjgwODk4NQ==&scene=124#wechat_redirect"
+                        target="_blank">
+                        <img src="./images/wechat/logo_jdx.png" class="item-card-img" alt="">
+                        <div>金刀峡</div>
+                        <img src="./images/icon-wechat.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA5ODE2NzIzMQ==&scene=124#wechat_redirect"
+                        target="_blank">
+                        <img src="./images/wechat/logo_wjhl.png" class="item-card-img" alt="">
+                        <div>乌江画廊</div>
+                        <img src="./images/icon-wechat.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIyODE0NjE3OA==&scene=124#wechat_redirect"
+                        target="_blank">
+                        <img src="./images/wechat/logo_ayh.png" class="item-card-img" alt="">
+                        <div>阿依河</div>
+                        <img src="./images/icon-wechat.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxODM2MDY0MQ==&scene=124#wechat_redirect"
+                        target="_blank">
+                        <img src="./images/wechat/logo_tjwq.png" class="item-card-img" alt="">
+                        <div>统景温泉</div>
+                        <img src="./images/icon-wechat.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA3MjAwMzAzMA==&scene=124#wechat_redirect"
+                        target="_blank">
+                        <img src="./images/wechat/logo_hjyl.png" class="item-card-img" alt="">
+                        <div>黄金邮轮</div>
+                        <img src="./images/icon-wechat.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAwODYzMzYyOA==&scene=124#wechat_redirect"
+                        target="_blank">
+                        <img src="./images/wechat/logo_hyd.png" class="item-card-img" alt="">
+                        <div>洪崖洞旅游</div>
+                        <img src="./images/icon-wechat.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI1NDA3Mzg1Ng==&scene=124#wechat_redirect"
+                        target="_blank">
+                        <img src="./images/wechat/logo_ljhotel.png" class="item-card-img" alt="">
+                        <div>两江假日酒店</br>及度假村</div>
+                        <img src="./images/icon-wechat.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI1NzcxMTYwOQ==&scene=124#wechat_redirect"
+                        target="_blank">
+                        <img src="./images/wechat/logo_drkt.png" class="item-card-img" alt="">
+                        <div>第二课堂</br>快乐成长</div>
+                        <img src="./images/icon-wechat.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI4MjEyMTU3NQ==&scene=124#wechat_redirect"
+                        target="_blank">
+                        <img src="./images/wechat/logo_qf.png" class="item-card-img" alt="">
+                        <div>千番旅行</div>
+                        <img src="./images/icon-wechat.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI1NTMwMzk5MQ==&scene=124#wechat_redirect"
+                        target="_blank">
+                        <img src="./images/wechat/logo_yzl.png" class="item-card-img" alt="">
+                        <div>渝之旅</div>
+                        <img src="./images/icon-wechat.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI4NjYzOTEzNw==&scene=124#wechat_redirect"
+                        target="_blank">
+                        <img src="./images/wechat/logo_by.png" class="item-card-img" alt="">
+                        <div>重庆中青旅</div>
+                        <img src="./images/icon-wechat.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU2ODc1MTQxMg==&scene=124#wechat_redirect"
+                        target="_blank">
+                        <img src="./images/wechat/logo_acq.png" class="item-card-img" alt="">
+                        <div>爱重庆</br>旅游推荐</div>
+                        <img src="./images/icon-wechat.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU5Nzc0MzI5Nw==&scene=124#wechat_redirect
+                    " target="_blank">
+                        <img src="./images/wechat/logo_lyyx.png" class="item-card-img" alt="">
+                        <div>重庆旅游</br>营销中心</div>
+                        <img src="./images/icon-wechat.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAwMDY4ODA0NA==&scene=124#wechat_redirect"
+                        target="_blank">
+                        <img src="./images/wechat/logo_lygh.png" class="item-card-img" alt="">
+                        <div>重庆市旅游</br>规划研究院</div>
+                        <img src="./images/icon-wechat.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU0NDkyMTMxMA==&scene=124#wechat_redirect"
+                        target="_blank">
+                        <img src="./images/wechat/logo_hyzl.png" class="item-card-img" alt="">
+                        <div>重庆旅游</br>人工智能</div>
+                        <img src="./images/icon-wechat.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIxMDE0NTAyOA==&scene=124#wechat_redirect"
+                        target="_blank">
+                        <img src="./images/wechat/logo_jddc.png" class="item-card-img" alt="">
+                        <div>景典地产</div>
+                        <img src="./images/icon-wechat.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="sub2">
+            <div class="content">
+                <div class="item-card">
+                    <a href="https://weibo.com/cqlhld" target="_blank">
+                        <img src="./images/weibo/logo_lhld.png" class="item-card-img" alt="">
+                        <div>乐和乐都</div>
+                        <img src="./images/icon-weibo.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://weibo.com/jfs517" target="_blank">
+                        <img src="./images/weibo/logo_jfs.png" class="item-card-img" alt="">
+                        <div>金佛山</div>
+                        <img src="./images/icon-weibo.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://weibo.com/cqslx" target="_blank">
+                        <img src="./images/weibo/logo_slx.png" class="item-card-img" alt="">
+                        <div>神龙峡</div>
+                        <img src="./images/icon-weibo.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://weibo.com/ccqjdx" target="_blank">
+                        <img src="./images/weibo/logo_jdx.png" class="item-card-img" alt="">
+                        <div>金刀峡</div>
+                        <img src="./images/icon-weibo.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://weibo.com/u/2298983890" target="_blank">
+                        <img src="./images/weibo/logo_wjhl.png" class="item-card-img" alt="">
+                        <div>乌江画廊</div>
+                        <img src="./images/icon-weibo.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://weibo.com/ayiriver" target="_blank">
+                        <img src="./images/weibo/logo_ayh.png" class="item-card-img" alt="">
+                        <div>阿依河</div>
+                        <img src="./images/icon-weibo.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://weibo.com/tongjingwenquan" target="_blank">
+                        <img src="./images/weibo/logo_tjwq.png" class="item-card-img" alt="">
+                        <div>统景温泉</div>
+                        <img src="./images/icon-weibo.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://weibo.com/yangtzegoldcruises" target="_blank">
+                        <img src="./images/weibo/logo_hjyl.png" class="item-card-img" alt="">
+                        <div>黄金邮轮</div>
+                        <img src="./images/icon-weibo.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a href="https://weibo.com/u/7427051354" target="_blank">
+                        <img src="./images/weibo/logo_hyd.png" class="item-card-img" alt="">
+                        <div>洪崖洞文旅</div>
+                        <img src="./images/icon-weibo.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="sub3">
+            <div class="content">
+                <div class="item-card showModelAndCopyCommand" id="showModelAndCopyCommand"
+                    onclick="handleShowModelClick()"
+                    data-clipboard-text="【重庆乐和乐都的个人主页】长按复制此条消息，长按复制打开抖音搜索，查看TA的更多作品##zwQgz1zuaf8##[抖音口令]">
+                    <a href="#">
+                        <img src="./images/tikTok/logo_lhld.png" class="item-card-img" alt="">
+                        <div>乐和乐都</div>
+                        <img src="./images/icon-tikTok.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card showModelAndCopyCommand" id="showModelAndCopyCommand"
+                    onclick="handleShowModelClick()"
+                    data-clipboard-text="【金佛山旅游的个人主页】长按复制此条消息，长按复制打开抖音搜索，查看TA的更多作品##uFcvaDAuaf8##[抖音口令]">
+                    <a href="#">
+                        <img src="./images/tikTok/logo_jfs.png" class="item-card-img" alt="">
+                        <div>金佛山</div>
+                        <img src="./images/icon-tikTok.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card showModelAndCopyCommand" id="showModelAndCopyCommand"
+                    onclick="handleShowModelClick()"
+                    data-clipboard-text="【重庆金刀峡旅游开发有限责任公司的个人主页】长按复制此条消息，长按复制打开抖音搜索，查看TA的更多作品##7W04pcytaf8##[抖音口令]">
+                    <a href="#">
+                        <img src="./images/tikTok/logo_jdx.png" class="item-card-img" alt="">
+                        <div>金刀峡</div>
+                        <img src="./images/icon-tikTok.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card showModelAndCopyCommand" id="showModelAndCopyCommand"
+                    onclick="handleShowModelClick()"
+                    data-clipboard-text="【重庆彭水乌江画廊阿依河的个人主页】长按复制此条消息，长按复制打开抖音搜索，查看TA的更多作品##FHY6jeFuaf8##[抖音口令]">
+                    <a href="#">
+                        <img src="./images/tikTok/logo_wjhl.png" class="item-card-img" alt="">
+                        <div>乌江画廊</div>
+                        <img src="./images/icon-tikTok.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card showModelAndCopyCommand" id="showModelAndCopyCommand"
+                    onclick="handleShowModelClick()"
+                    data-clipboard-text="【重庆统景温泉风景区的个人主页】长按复制此条消息，长按复制打开抖音搜索，查看TA的更多作品##MUbRaBHuaf8##[抖音口令]">
+                    <a href="#">
+                        <img src="./images/tikTok/logo_tjwq.png" class="item-card-img" alt="">
+                        <div>统景温泉</div>
+                        <img src="./images/icon-tikTok.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card showModelAndCopyCommand" id="showModelAndCopyCommand"
+                    onclick="handleShowModelClick()"
+                    data-clipboard-text="【黄金邮轮的个人主页】长按复制此条消息，长按复制打开抖音搜索，查看TA的更多作品##f07g0DJuaf8##[抖音口令]">
+                    <a href="#">
+                        <img src="./images/tikTok/logo_hjyl.png" class="item-card-img" alt="">
+                        <div>黄金邮轮</div>
+                        <img src="./images/icon-tikTok.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card showModelAndCopyCommand" id="showModelAndCopyCommand"
+                    onclick="handleShowModelClick()"
+                    data-clipboard-text="【洪崖洞旅游的个人主页】长按复制此条消息，长按复制打开抖音搜索，查看TA的更多作品##f8T6u4Muaf8##[抖音口令]">
+                    <a href="#">
+                        <img src="./images/tikTok/logo_hyd.png" class="item-card-img" alt="">
+                        <div>洪崖洞旅游</div>
+                        <img src="./images/icon-tikTok.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card showModelAndCopyCommand" id="showModelAndCopyCommand"
+                    onclick="handleShowModelClick()"
+                    data-clipboard-text="【重庆渝之旅国际旅行社的个人主页】长按复制此条消息，长按复制打开抖音搜索，查看TA的更多作品##HMijNSNuaf8##[抖音口令]">
+                    <a href="#">
+                        <img src="./images/tikTok/logo_yzl.png" class="item-card-img" alt="">
+                        <div>渝之旅国际</br>旅行社</div>
+                        <img src="./images/icon-tikTok.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+                <div class="item-card showModelAndCopyCommand" id="showModelAndCopyCommand"
+                    onclick="handleShowModelClick()"
+                    data-clipboard-text="【重庆中国青旅的个人主页】长按复制此条消息，长按复制打开抖音搜索，查看TA的更多作品##UWAy4gQuaf8##[抖音口令]">
+                    <a href="#">
+                        <img src="./images/tikTok/logo_by.png" class="item-card-img" alt="">
+                        <div>重庆中国青旅</div>
+                        <img src="./images/icon-tikTok.png" class="item-card-icon" alt="">
+                    </a>
+                </div>
+            </div>
+            <div id="cover" class="cover-box">
+                <div class="cover-card" id="toast">
+                    <span>抖音口令已复制~</span>　　
+                    <span>请打开抖音app查看精彩内容</span>
+                    <div id="close">
+                        <img src="./images/popup-close.png" class="popup-close-img" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <span>技术支持by中新智旅</span>
+        </footer>
+    </div>
+
+    <script>
+        !(function (n) {
+            var e = n.document,
+                t = e.documentElement,
+                b = e.body,
+                i = 750,
+                d = i / 100,
+                o = 'orientationchange' in n ? 'orientationchange' : 'resize',
+                a = function () {
+                    var n = t.clientWidth || 375;
+                    n > 750 && (n = 750);
+                    t.style.fontSize = n / d + 'px';
+                    b.style.maxWidth = 750 + 'px';
+                    b.style.margin = '0 auto';
+                };
+            e.addEventListener && (n.addEventListener(o, a, !1), e.addEventListener('DOMContentLoaded', a, !1));
+        })(window);
+    </script>
+    <script>
+        $(document).ready(function () {
+            var history = window.history.length;
+            if (history > 1) {
+                var tabIndex = Number(localStorage.getItem("tabIndex"));
+                var tabActive = document.getElementById("nav" + tabIndex);
+                tabActive.className = "tab-item-active";
+                var oId = tabActive.id;
+                var j;
+                var id;
+                var e;
+                for (var i = 1; i <= 3; i++) {
+                    id = "nav" + i;
+                    j = document.getElementById(id);
+                    e = document.getElementById("sub" + i);
+                    if (id !== oId) {
+                        j.className = "tab-item";
+                        e.style.display = "none";
+                    } else {
+                        e.style.display = "block";
+                        localStorage.setItem('tabIndex', i)
+                    }
+                }
+            } else {
+                localStorage.setItem('tabIndex', '1')
+            }
+        });
+        var clipboard = new ClipboardJS('#showModelAndCopyCommand');
+        clipboard.on('success', function (e) {
+            e.clearSelection();
+        });
+        clipboard.on('error', function (e) {
+        });
+        function handleShowModelClick() {
+            var showModelAndCopyCommand = document.getElementById('showModelAndCopyCommand');
+            var cover = document.getElementById('cover');
+            var close = document.getElementById('close');
+            cover.style.display = "block";
+            var winWidth = window.innerWidth;
+            var winHeight = window.innerHeight;
+            var targetWidth = toast.offsetWidth;
+            var targetHeight = toast.offsetHeight;
+            toast.style.top = (winHeight - targetHeight) / 2 * 0.9 + "px";
+            toast.style.left = (winWidth - targetWidth) / 2 + "px";
+            close.style.top = (winHeight - targetHeight) / 2 + "px";
+            document.getElementById("close").onclick = function (e) {
+                cover.style.display = "none";
+            }
+        }
+        function handleTabSwitchClick(o) {
+            o.className = "tab-item-active";
+            var j;
+            var id;
+            var e;
+            for (var i = 1; i <= 3; i++) {
+                id = "nav" + i;
+                j = document.getElementById(id);
+                e = document.getElementById("sub" + i);
+                if (id !== o.id) {
+                    j.className = "tab-item";
+                    e.style.display = "none";
+                } else {
+                    e.style.display = "block";
+                    localStorage.setItem('tabIndex', i)
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
